@@ -127,6 +127,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.upwork ? (
+        <a
+          href={socialMediaLinks.upwork}
+          className="icon-button upwork"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-upwork"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }
