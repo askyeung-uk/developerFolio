@@ -68,6 +68,10 @@
   background-color: $instagram;
 }
 
+.upwork i {
+  background-color: $upwork;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -78,7 +82,9 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
-.medium i:hover {
+.medium i:hover,
+.upwork i:hover
+{
   background-color: $textColor;
 }
 
