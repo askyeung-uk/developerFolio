@@ -190,17 +190,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "SAP Project Consultant" and
-      company: "iXynergy Business Solutions Ltd.",
+      role: "SAP Project Consultant"
+      , company: "iXynergy Business Solutions Ltd.",
       companylogo: "" // require("./assets/images/quoraLogo.png"),
-      date: "Jul 2007 – Jun 2018",
+      , date: "Jul 2007 – Jun 2018",
       desc: "Participated in 15+ SAP ERP Projects, focused on manufacturing. FI / CO / MM / SD / PP modules configuration, customization and modification using ABAP languages."
     },
     {
       role: "System Analyst",
       company: "Various",
       companylogo: "" // require("./assets/images/airbnbLogo.png"),
-      date: "Nov 1994 – Jue 2007",
+      , date: "Nov 1994 – Jue 2007",
       desc: "Various programming assignments and projects, starting from Assembly, C, C++, Java, C#, ASP, HTML, CSS and Javascript"
     }
   ]
