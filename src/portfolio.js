@@ -36,6 +36,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/askyeung-uk",
   linkedin: "https://www.linkedin.com/in/andrew-yeung-9b29992/",
+  upwork: "https://upwork.com/freelancers/andrewyeung7"
   
   // gmail: "askyeung-uk@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
@@ -46,7 +47,7 @@ const socialMediaLinks = {
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   
-  display: false // Set true to display this section, defaults to false
+  display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -374,11 +375,13 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
-    "Discuss a project or issue you want to solve? My Inbox is open for all.",
+    "Discuss a project or issue you want to solve? Feel free to reach me at GitHub, LinkedIn or Upwork.",
   github: "https://github.com/askyeung-uk"
   , linkedin: "https://www.linkedin.com/in/andrew-yeung-9b29992/"
+  , upwork: "https://upwork.com/freelancers/andrewyeung7"
+  
   // number: "+92-0000000000",
   // email_address: "saadpasta70@gmail.com"
 };
