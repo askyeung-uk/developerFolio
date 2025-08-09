@@ -15,33 +15,37 @@ const splashScreen = {
 
 // Summary And Greeting Section
 
-const illustration = {
+const illustration = 
   animated: false // Set to false to use static SVG
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Andrew Yeung",
+  title: "Welcome, I'm Andrew",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Analytical and detail-oriented. 20+ yrs exp. In Business Transformation with ERP, Database and Office Automation. Keen on delivering values and insights. Recent interest in Python, Data Analytics and AI."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    // "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "",
   displayGreeting: false // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/askyeung-uk",
+  linkedin: "https://www.linkedin.com/in/andrew-yeung-9b29992/",
+  
+  // gmail: "askyeung-uk@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
+  
   display: false // Set true to display this section, defaults to false
 };
 
@@ -49,14 +53,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "VERSATILE DEVELOPER WHO EXPLORES NEW TECH STACK IF NEEDED",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Leveraging AI in building web-scrapping application in Python"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Automating repetitive UI manuveure using Power Automate, MSSQL and Excel"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrating Books Catalogue distribution using OnixEdit / XSLT / SFTP / VBA"
     )
   ],
 
@@ -174,29 +178,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Freelance IT Developer",
+      company: "",
+      companylogo: "", // require("./assets/images/facebookLogo.png"),
+      date: "June 2020 – Present",
+      desc: "Delivered two instance-level ERP migrations, each completed within its 3-months timeframe",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Migration with Testing on ERP Instance",
+        "Automating Book Catalogue Distribution with OnixEDIT, XML / XSLT and Excel"
+        , "Optimizing MySQL query response under 10 seconds against table with 10M+ records"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "SAP Project Consultant" and
+      company: "iXynergy Business Solutions Ltd.",
+      companylogo: "" // require("./assets/images/quoraLogo.png"),
+      date: "Jul 2007 – Jun 2018",
+      desc: "Participated in 15+ SAP ERP Projects, focused on manufacturing. FI / CO / MM / SD / PP modules configuration, customization and modification using ABAP languages."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "System Analyst",
+      company: "Various",
+      companylogo: "" // require("./assets/images/airbnbLogo.png"),
+      date: "Nov 1994 – Jue 2007",
+      desc: "Various programming assignments and projects, starting from Assembly, C, C++, Java, C#, ASP, HTML, CSS and Javascript"
     }
   ]
 };
@@ -371,9 +376,11 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or issue you want to solve? My Inbox is open for all.",
+  github: "https://github.com/askyeung-uk"
+  , linkedin: "https://www.linkedin.com/in/andrew-yeung-9b29992/"
+  // number: "+92-0000000000",
+  // email_address: "saadpasta70@gmail.com"
 };
 
 // Twitter Section
