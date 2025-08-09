@@ -198,9 +198,9 @@ const workExperiences = {
     },
     {
       role: "System Analyst",
-      company: "Various",
+      company: "Various Companies",
       companylogo: "" // require("./assets/images/airbnbLogo.png"),
-      , date: "Nov 1994 – Jue 2007",
+      , date: "Nov 1994 – Jun 2007",
       desc: "Various programming assignments and projects, starting from Assembly, C, C++, Java, C#, ASP, HTML, CSS and Javascript"
     }
   ]
