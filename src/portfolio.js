@@ -180,7 +180,7 @@ const workExperiences = {
   experience: [
     {
       role: "Freelance IT Developer",
-      company: "",
+      company: "Freelance at Upwork",
       companylogo: "", // require("./assets/images/facebookLogo.png"),
       date: "June 2020 – Present",
       desc: "Delivered two instance-level ERP migrations, each completed within its 3-months timeframe",
