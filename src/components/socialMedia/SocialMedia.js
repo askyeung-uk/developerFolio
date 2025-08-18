@@ -135,7 +135,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa-brands fa-upwork"></i>
+          <i className="fab fa-upwork"></i>
           <span></span>
         </a>
       ) : null}
