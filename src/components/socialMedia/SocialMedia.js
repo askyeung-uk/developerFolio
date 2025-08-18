@@ -131,11 +131,11 @@ export default function socialMedia() {
       {socialMediaLinks.upwork ? (
         <a
           href={socialMediaLinks.upwork}
-          className="icon-button upwork"
+          className="icon-button github"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-upwork"></i>
+          <i className="fab fa-github"></i>
           <span></span>
         </a>
       ) : null}
