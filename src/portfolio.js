@@ -179,30 +179,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Freelance IT Developer",
-      company: "Freelance at Upwork",
-      companylogo: "", // require("./assets/images/facebookLogo.png"),
-      date: "June 2020 – Present",
-      desc: "Delivered two instance-level ERP migrations, each completed within its 3-months timeframe",
-      descBullets: [
-        "Migration with Testing on ERP Instance",
-        "Automating Book Catalogue Distribution with OnixEDIT, XML / XSLT and Excel"
-        , "Optimizing MySQL query response under 10 seconds against table with 10M+ records"
+      role: "Freelance IT Consultant"
+      , company: "Freelance at Upwork"
+      , companylogo: "" // require("./assets/images/facebookLogo.png"),
+      , date: "June 2020 – Present"
+      , desc: "Delivered two instance-level ERP migrations, each completed within its 3-months timeframe"
+      , descBullets: [
+        "Migrated 2 ERP Instances with Functional and Data Testing"
+        , "Automate Book Catalogue Distribution with OnixEDIT, XML / XSLT and Excel"
+        , "Optimized MySQL query to respond within 10 seconds against table with 10M+ records"
       ]
     },
     {
       role: "SAP Project Consultant"
-      , company: "iXynergy Business Solutions Ltd.",
-      companylogo: "" // require("./assets/images/quoraLogo.png"),
-      , date: "Jul 2007 – Jun 2018",
-      desc: "Participated in 15+ SAP ERP Projects, focused on manufacturing. FI / CO / MM / SD / PP modules configuration, customization and modification in SAP ABAP."
+      , company: "iXynergy Business Solutions Ltd."
+      , companylogo: "" // require("./assets/images/quoraLogo.png"),
+      , date: "Jul 2007 – Jun 2018"
+      , desc: "Participated in 15+ SAP ERP Projects, focused on manufacturing. FI / CO / MM / SD / PP modules configuration, customization and modification in SAP ABAP."
     },
     {
-      role: "System Analyst",
-      company: "Various Companies",
-      companylogo: "" // require("./assets/images/airbnbLogo.png"),
-      , date: "Nov 1994 – Jun 2007",
-      desc: "Various programming assignments and projects, ranging from Assembly, C, C++, Java, C#, ASP, HTML, CSS and Javascript"
+      role: "System Analyst"
+      , company: "Various Companies"
+      , companylogo: "" // require("./assets/images/airbnbLogo.png"),
+      , date: "Nov 1994 – Jun 2007"
+      , desc: "Various programming assignments and projects, ranging from Assembly, C, C++, Java, C#, ASP, HTML, CSS and Javascript"
     }
   ]
 };
