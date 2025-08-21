@@ -28,6 +28,7 @@ export default function WorkExperience() {
                         role: card.role,
                         descBullets: card.descBullets
                       }}
+                      showCompany={workExperiences.showCompany}
                     />
                   );
                 })}
