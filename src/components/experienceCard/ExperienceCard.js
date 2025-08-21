@@ -2,7 +2,7 @@ import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
 
-export default function ExperienceCard({cardInfo, isDark}) {
+export default function ExperienceCard({cardInfo, isDark, showCompany}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
@@ -30,9 +30,17 @@ export default function ExperienceCard({cardInfo, isDark}) {
       : null;
   };
 
+  const GetBannerStyle = () => {
+    return Object.assign(
+      {}
+      , {background: rgb(colorArrays)}
+      , showCompany && {display: none"}
+    );
+  };
+
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
-      <div style={{background: rgb(colorArrays)}} className="experience-banner">
+      <div style={GetBannerStyle()} className="experience-banner">
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
