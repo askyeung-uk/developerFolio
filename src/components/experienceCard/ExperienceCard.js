@@ -34,7 +34,7 @@ export default function ExperienceCard({cardInfo, isDark, showCompany}) {
     return Object.assign(
       {}
       , {background: rgb(colorArrays)}
-      , showCompany && {display: "none"}
+      , !showCompany && {display: "none"}
     );
   };
 
