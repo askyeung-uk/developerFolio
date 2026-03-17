@@ -180,17 +180,18 @@ const workExperiences = {
   , showCompany: false
   , experience: [
     {
-      role: "Freelance IT Consultant"
-      , company: "Freelance at Upwork"
+      role: "Automated Email Validation"
+      , company: "Subsidiary office at Asia Pacific Region of a Multinational Publishing Company"
       , companylogo: "" // require("./assets/images/facebookLogo.png"),
-      , date: "June 2020 – Present"
-      , desc: "Delivered two instance-level ERP migrations, each completed within its 3-months timeframe"
+      , date: "June 2024"
+      , desc: "Preventing Invoice Delivery Failures with Automated Email Validation in Excel Workflows"
       , descBullets: [
-        "Migrated 2 ERP Instances with Functional and Data Testing"
-        , "Automate Book Catalogue Distribution with OnixEDIT, XML / XSLT and Excel"
-        , "Optimized MySQL query to respond within 10 seconds against table with 10M+ records"
+        "Errors detected within 1 day (vs weeks before)"
+        , "Reduced billing delays significantly to less than 2 days"
+        , "Saved 100+ hours of manual checking and forwarding invoices effort per month"
       ]
-    },
+    } 
+    /*,
     {
       role: "SAP Project Consultant"
       , company: "iXynergy Business Solutions Ltd."
@@ -205,6 +206,7 @@ const workExperiences = {
       , date: "Nov 1994 – Jun 2007"
       , desc: "Various programming assignments and projects, ranging from Assembly, C, C++, Java, C#, ASP, HTML, CSS and Javascript"
     }
+    */
   ]
 };
 
