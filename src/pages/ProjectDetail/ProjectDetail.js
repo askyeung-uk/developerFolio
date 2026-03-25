@@ -12,7 +12,7 @@ import {useLocalStorage} from "../../hooks/useLocalStorage";
 
 export default function ProjectDetail() {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark] = useLocalStorage("isDark", darkPref.matches);
 
 
   return (
