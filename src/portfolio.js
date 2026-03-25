@@ -180,33 +180,33 @@ const workExperiences = {
   , showCompany: false
   , experience: [
     {
-      role: "Automated Email Validation"
-      , company: "Subsidiary office at Asia Pacific Region of a Multinational Publishing Company"
+      role: "Freelance Automation Consultant"
+      , company: "Subsidiary office at Asia Pacific Region of a Multinational Publishing Company (via Upwork)"
       , companylogo: "" // require("./assets/images/facebookLogo.png"),
-      , date: "June 2024"
-      , desc: "Preventing Invoice Delivery Failures with Automated Email Validation in Excel Workflows"
+      , date: "June 2020 - Present"
+      , desc: "Delivered Automation to fulfill two ERP migrations, each completed within its 3-months timeframe"
       , descBullets: [
-        "Errors detected within 1 day (vs weeks before)"
-        , "Reduced billing delays significantly to less than 2 days"
-        , "Saved 100+ hours of manual checking and forwarding invoices effort per month"
+        "Automated Customer Invoice Delivery and Email Address Checking"
+        , "Migrated 2 ERP Instances with Functional and Data Testing"
+        , "Automated Book Catalogue Distribution with OnixEdit / XSLT / SFTP / VBA"
       ]
     } 
-    /*,
+    ,
     {
       role: "SAP Project Consultant"
       , company: "iXynergy Business Solutions Ltd."
       , companylogo: "" // require("./assets/images/quoraLogo.png"),
       , date: "Jul 2007 – Jun 2018"
       , desc: "Participated in 15+ SAP ERP Projects, focused on manufacturing. FI / CO / MM / SD / PP modules configuration, customization and modification in SAP ABAP."
-    },
+    }
+    ,
     {
       role: "System Analyst"
       , company: "Various Companies"
       , companylogo: "" // require("./assets/images/airbnbLogo.png"),
       , date: "Nov 1994 – Jun 2007"
       , desc: "Various programming assignments and projects, ranging from Assembly, C, C++, Java, C#, ASP, HTML, CSS and Javascript"
-    }
-    */
+    }   
   ]
 };
 
@@ -221,22 +221,22 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "PAST PROJECTS I WORKED ON THAT DELIVERED IMPACT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "", // require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Automated Customer Invoice Delivery with Email Address Checking",
+      projectDesc: "A data validation layer that protects a revenue-critical billing workflow in a legacy ERP environment",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Details",
+          url: "/projects/email-validation" // "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
       ]
-    },
-    {
+    }
+    /*, {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -247,8 +247,9 @@ const bigProjects = {
         }
       ]
     }
+    */
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section

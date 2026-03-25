@@ -1,0 +1,53 @@
+@import "../../_globalColor";
+
+
+.page-project-detail {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+
+  color: $projectDetail;
+  font-size: 17px;
+  line-height: 1.5rem;
+
+  text-align: left;
+}
+
+
+.page-project-detail-title {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
+.page-project-detail-subtitle {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+
+.page-project-detail img {
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.page-back-button {
+  margin-bottom: 20px;
+}
+
+.page-back-button a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page-back-button a:hover {
+  text-decoration: underline;
+}
